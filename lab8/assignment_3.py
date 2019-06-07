@@ -137,16 +137,16 @@ def unique(list1):
    unique_list = []
 
 
-   for x in list1:
+   for m in list1:
 
 
-       if x not in unique_list:
+       if m not in unique_list:
 
 
-           unique_list.append(x)
+           unique_list.append(m)
 
 
-   print ("There are",len(unique_list),"types of files in files directory")
+   print (len(unique_list))
 
 
 unique(merve)
